@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container1 {
+  background: url("Images/rakhi_img.jpg") no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+}
+.Img_Container {
+  position: relative;
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10vh;
+}
+.Img_Container img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+#one {
+  position: absolute;
+  top: 100px;
+}
+#two {
+  position: absolute;
+  top: 250px;
+  left: 0;
+}
+#three {
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+#four {
+  position: absolute;
+  top: 420px;
+}
+#btn1 a,
+#btn2 a,
+#btn3 a,
+#btn4 a {
+  text-decoration: none;
+  color: brown;
+}
+#btn1,
+#btn2 {
+  padding: 8px 14px;
+  border: none;
+  background: linear-gradient(blue, yellow, white, red);
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  cursor: pointer;
+}
+
+.container2 {
+  position: relative;
+  background: url("Images/bg-2.jpg") no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+#btn2,
+#btn3,
+#btn4 {
+  padding: 10px 40px;
+  background: linear-gradient(rgb(159, 6, 32), rgb(56, 136, 56), cyan);
+  color: darkred;
+  font-size: 20px;
+  position: absolute;
+  top: 90vh;
+  left: 44vw;
+  cursor: pointer;
+}
+
+.main_container3 {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    yellow,
+    red,
+    pink,
+    cyan,
+    white,
+    blue,
+    green,
+    orange
+  );
+}
+.container3 {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container3 h1{
+  padding:10px;
+  position: absolute;
+  top:42vh;
+  font-size: 36px;
+  text-align: center;
+  max-width: 260px;
+  left:48px;
+  background: linear-gradient(red,white,yellow);
+  color:rgb(36, 5, 66)
+}
+.Image1,
+.Image2,
+.Image3,
+.Image4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  height: 100vh;
+  margin: 0 auto;
+  position: absolute;
+  left: 10px;
+}
+.Image1 img,
+.Image2 img,
+.Image3 img,
+.Image4 img {
+  height: 55px;
+  width: 55px;
+}
+.Image2 {
+  flex-direction: row;
+  top: -167px;
+  left: 42px;
+}
+.Image3 {
+  left: 320px;
+  right: 350px;
+}
+.Image4 {
+  flex-direction: row;
+  top: 167px;
+  left: 42px;
+}
+#btn3 {
+  border-radius: 50%;
+}
+.container4 {
+  background: url("Photos/bg-4.webp") no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.video {
+  width:82vw;
+  height: 400px;
+}
+.Images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.Image {
+  display: flex;
+  gap: 20px;
+}
+.Images img {
+  height: 400px;
+  width: 300px;
+}
+#btn4{
+  position: relative;
+  bottom: 0;
+  left:200px
+}
+.container5 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(red, white, yellow);
+}
+.text {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.text h1 {
+  font-size: 80px;
+  text-align: center;
+  color: rgb(227, 15, 51);
+}
+.text h2 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(73, 73, 225);
+}
+.text h3 {
+  font-size: 30px;
+  text-align: center;
+  color: darkred;
+}
+
+@media (max-width: 1320px) {
+  .Images img {
+    height: 300px;
+    width: 200px;
+  }
+}
+@media (max-width: 900px) {
+  .Images img {
+    height: 200px;
+    width: 150px;
+  }
+}
+@media (max-width: 700px) {
+  .Image {
+    flex-direction: column;
+  }
+}
